@@ -19,8 +19,6 @@ DELETE), связями между таблицами через PRIMARY KEY / F
 
 Или в IntelliJ / VS Code — открыть папку и нажать Run над main.
 
-Если java/javac не в PATH — поставить Temurin 17 с https://adoptium.net.
-
 3. Как пользоваться
 
 После запуска приглашение sql>. Команды заканчиваются на ;.
@@ -147,12 +145,3 @@ BENCHMARK; генерирует 50 000 строк, делает 100 SELECT'ов 
 
 Интерфейс, тестирование и отчёт — совместно.
 
-9. Источники
-
-- Java NIO.2 — Files, Path, ATOMIC_MOVE:
-  https://docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html
-- TreeMap / NavigableMap — headMap, tailMap:
-  https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html
-- ObjectOutputStream / Serializable:
-  https://docs.oracle.com/javase/8/docs/api/java/io/ObjectOutputStream.html
-- Мартин Фаулер. Паттерны Repository и Iterator (кратко по курсу)
